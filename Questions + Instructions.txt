@@ -1,0 +1,30 @@
+1. Assign a value to bestCase to represent a best-case scenario with the given value of text.
+Note: this is not the true worst-case scenario because we could have much longer values for text, but it could represent
+a case scenario for an application if this always the value of text.
+✔
+2. Assign a value to worstCase to represent a worst-case scenario with the given value of text.
+✔
+3. Use the example in section 22.3: Example: Determining Big O, LiveExample 22.1.
+Initialize a startTime before calling match() for both scenarios.
+✔
+4. Initialize an endTime right after match() is called for both. 
+✔
+5. Then, calculate and output elapsedTime for both scenarios by subtracting (endTime - startTime) for each.
+✔
+
+
+Questions:
+
+1. According to the book, what is Big O for this algorithm?
+I believe that the Big O for this algorithm is O(n).
+
+2. Did your calculations of elapsedTime align with what the book said about Big O for this brute-force string matching algorithm?
+I think it did, the book says that O(n) algorithms take more time on a linear basis, so (for me) the time in between the
+best-case and worst-case went up a small amount.
+
+3. Describe what you think the purpose of the exercise is?
+I think the purpose of this exercise is to become comfortable with the idea of effeciency with coding.
+Having an efficient program is important so that the computer doesn't take a long time to execute code.
+
+4. Is this enough to calculate a best- and worst-case scenario?
+I think it's good enough for practicing. A bigger sample would probably be better practice as well.
